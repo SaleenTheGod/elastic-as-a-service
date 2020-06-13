@@ -11,7 +11,7 @@ if ($?)
      docker-compose -f elastic-docker-tls.yml stop
      docker-compose -f elastic-docker-tls.yml up -d
 }
-if (!$?)
+elseif (!$?)
 {
      Write-Host "Failed to start docker containers. Is Docker running with docker-compose installed? https://docs.docker.com/compose/install/"
 }
