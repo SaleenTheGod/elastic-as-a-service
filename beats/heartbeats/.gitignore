@@ -1,3 +1,10 @@
 !grab-heartbeat.ps1
 !heartbeat.yml
-*.*
+
+/logs/*
+
+meta.json
+.build_hash.txt
+
+*.zip
+*.exe
