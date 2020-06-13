@@ -1,1 +1,3 @@
-*.zip
+!grab-heartbeat.ps1
+!heartbeat.yml
+*.*
